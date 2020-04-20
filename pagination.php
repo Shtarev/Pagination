@@ -3,7 +3,7 @@
 /**************************************************/ 
 
 $vsego = 6; // NITIALISATION - quantity of paginate output 
-$mysqli = mysqli_connect ("localhost","root","","table"); 
+$mysqli = mysqli_connect ("localhost","root","","base"); 
 $result = $mysqli->query ("SELECT id, title FROM col ORDER BY id DESC");
 
 $row = mysqli_num_rows($result);
